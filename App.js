@@ -40,6 +40,7 @@ const App = () =>
           </View>
         </View>
       </Modal>
+      
       </View>
 
   );
@@ -54,7 +55,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#ffe5b4"
   },
   modalView: {
-    backgroundColor: "#ffe91e63",
+    backgroundColor: "#E389B9",
     borderRadius: 20,
     padding: 22,
     alignItems: "center",
