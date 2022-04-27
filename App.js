@@ -23,16 +23,16 @@
      <SafeAreaView style={styles.scrollview}>
       <ScrollView style = {styles.scroll} horizontal={true} showsHorizontalScrollIndicator={false}>
         <View style={styles.scrollable}>
-        <Text style={styles.scrolltext} >Take the quiz</Text>
+        <Text style={styles.scrolltext} onPress={()=>alert("Quiz will start")}>Take the quiz</Text>
         </View>
         <View style={styles.scrollable}>
-        <Text style={styles.scrolltext}>Take the quiz</Text>
+        <Text style={styles.scrolltext} onPress={()=>alert("Quiz will start")}>Take the quiz</Text>
         </View>
         <View style={styles.scrollable}>
-        <Text style={styles.scrolltext}>Take the quiz</Text>
+        <Text style={styles.scrolltext} onPress={()=>alert("Quiz will start")}>Take the quiz</Text>
         </View>
         <View style={styles.scrollable}>
-        <Text style={styles.scrolltext}>Take the quiz</Text>
+        <Text style={styles.scrolltext} onPress={()=>alert("Quiz will start")}>Take the quiz</Text>
         </View>
       </ScrollView>
        
@@ -74,14 +74,6 @@
      flexDirection: "row"
      },
 
-     viewbox:{
-     width: '36%',
-     height: '9%',
-     borderRadius: 30,
-     backgroundColor: 'black',
-     top: '2%',
-     },
-
      scrollview: {
      flex:3,
      marginTop: 22,
@@ -117,44 +109,12 @@
       top:"1%",
       },
 
-      button: {
-        borderRadius: 20,
-        padding: 10,
-        elevation: 2
-      },
-
-      buttonOpen: {
-        backgroundColor: "#F194FF",
-      },
-
       scrolltext:{
       top:"40%",
       color: "white",
       fontWeight: "bold",
       textAlign: "center",
       },
-
-      buttonClose: {
-      backgroundColor: "#2196F3",
-      },
-
-        textStyle: {
-        color: "white",
-        fontWeight: "bold",
-        textAlign: "center"
-        },
-
-        modalText: {
-        marginBottom: 15,
-        textAlign: "center"
-        },
- 
-        touchout:{
-        borderWidth:2,
-        width:'100%',
-        height:'100%',
-        flex:1,
-        },
  
         img:{
         width:'103%',
